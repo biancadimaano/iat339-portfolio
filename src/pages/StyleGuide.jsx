@@ -34,7 +34,13 @@ function StyleGuide() {
                   <a href="#card-section">Card Elements</a>
                 </li>
                 <li>
+                  <a href="#templates-section">Templates</a>
+                </li>
+                <li>
                   <a href="#citations-section">Citations</a>
+                </li>
+                <li>
+                  <a href="https://github.com/biancadimaano/iat339-portfolio" target="_blank">GitHub</a>
                 </li>
               </ul>
             </nav>
