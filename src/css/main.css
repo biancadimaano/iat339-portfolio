@@ -62,6 +62,11 @@ a:hover, a:focus {
     color: var(--pink-300);
 }
 
+/* Ethos */
+#ethos-section .paragraph {
+    margin-bottom: 1rem;
+}
+
 /* Typefaces & Typography */
 .typeface {
     display: flex;
@@ -105,7 +110,7 @@ p.display-text {
 }
 
 .paragraph {
-    max-width: 50rem;
+    max-width: 45rem;
 }
 
 .paragraphs.container {

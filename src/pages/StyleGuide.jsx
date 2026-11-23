@@ -1,7 +1,8 @@
 /*
-
+  Style Guide
 */
 
+import { Link } from "react-router-dom";
 import ColourSwatch from "../components/style-guide/ColourSwatch";
 import placeholder from "../images/image_placeholder.png";
 import "../css/normalize.css";
@@ -40,7 +41,12 @@ function StyleGuide() {
                   <a href="#citations-section">Citations</a>
                 </li>
                 <li>
-                  <a href="https://github.com/biancadimaano/iat339-portfolio" target="_blank">GitHub</a>
+                  <a
+                    href="https://github.com/biancadimaano/iat339-portfolio"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -48,6 +54,36 @@ function StyleGuide() {
           </div>
         </div>
       </header>
+
+      {/* Ethos */}
+      <section id="ethos-section">
+        <div class="section-header">
+          <h2 class="redaction">ethos</h2>
+          <p class="yarndings">Y</p>
+        </div>
+
+        {/* Colours */}
+        <div class="example last">
+          <div>
+            <p class="paragraph">
+              I'm a product designer with a developer's mindset and a creative
+              perspective. I enjoy turning complex problems into intuitive
+              experiences, exploring how technology can bring ideas to life, and
+              adding thoughtful details that make products engaging and
+              delightful to use.
+            </p>
+            <p class="paragraph">
+              Inspired by interactive experiences and video games, I value
+              products that are not only functional but also enjoyable to
+              explore. With the ability to both design and code, I bring a
+              unique perspective to the product development process, bridging
+              creative ideas with technical possibilities to create experiences
+              that are thoughtful, engaging, and feasible to build.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* Ethos */}
 
       {/* Colour & Text Styles */}
       <section id="colour-text-section">
@@ -411,8 +447,9 @@ function StyleGuide() {
         </div>
 
         <div class="example templates last">
-          <a href="">Template 1</a>
-          <a href="">Template 2</a>
+          <Link to="/template/homepage">
+            <button class="outline">Template 1</button>
+          </Link>
         </div>
       </section>
       {/* --- Templates */}
@@ -425,12 +462,45 @@ function StyleGuide() {
         </div>
 
         <div class="example citations last">
-          <p>Redaction 20</p>
-          <p>Geist</p>
-          <p>Geist Mono</p>
-          <p>Yarndings</p>
-          <p>W3Schools</p>
-          <p>MDN Docs</p>
+          <div>
+            <p>Redaction 20</p>
+            <a href="https://fonts.google.com/specimen/Redaction+20?preview.script=Latn">
+              https://fonts.google.com/specimen/Redaction+20?preview.script=Latn
+            </a>
+          </div>
+
+          <div>
+            <p>Geist</p>
+            <a href="https://fonts.google.com/specimen/Geist?query=geist">
+              https://fonts.google.com/specimen/Geist?query=geist
+            </a>
+          </div>
+
+          <div>
+            <p>Geist Mono</p>
+            <a href="https://fonts.google.com/specimen/Geist+Mono?query=geist+mono">
+              https://fonts.google.com/specimen/Geist+Mono?query=geist+mono
+            </a>
+          </div>
+
+          <div>
+            <p>Yarndings 20</p>
+            <a href="https://fonts.google.com/specimen/Yarndings+20?query=yarndings+20&preview.script=Latn">
+              https://fonts.google.com/specimen/Yarndings+20?query=yarndings+20&preview.script=Latn
+            </a>
+          </div>
+
+          <div>
+            <p>MDN Web Docs</p>
+            <a href="https://developer.mozilla.org/en-US/">
+              https://developer.mozilla.org/en-US/
+            </a>
+          </div>
+
+          <div>
+            <p>W3Schools</p>
+            <a href="https://www.w3schools.com/">https://www.w3schools.com/</a>
+          </div>
         </div>
       </section>
       {/* --- Citations */}
