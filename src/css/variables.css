@@ -1,0 +1,81 @@
+/*
+  variables.css
+  Common tokens used across the project's CSS files.
+
+  Reference for variables: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties
+*/
+
+:root {
+    --pink-100: #FBE4F2;
+    --pink-200: #FFA8F4;
+    --pink-300: #89397F;
+    --pink-400: #47123E;
+    --pink-500: #2B0424;
+    --neutral-100: #FFFFFF;
+    --neutral-200: #F5F5F5;
+    --neutral-300: #CCCCCC;
+    --neutral-400: #888888;
+    --neutral-500: #1B1B1B;
+}
+
+/* Black Text */
+.text-primary {
+    color: var(--neutral-500);
+}
+
+/* Dark Gray Text */
+.text-secondary {
+    color: var(--neutral-400);
+}
+
+/* Dark Pink Text */
+.text-accent {
+    color: var(--pink-400);
+}
+
+/* Dark Pink Text */
+.text-white {
+    color: var(--neutral-100);
+}
+
+/* Pink Background Colour */
+.bg-pink-100 {
+    background-color: var(--pink-100);
+}
+
+.bg-pink-200 {
+    background-color: var(--pink-200);
+}
+
+.bg-pink-300 {
+    background-color: var(--pink-300);
+}
+
+.bg-pink-400 {
+    background-color: var(--pink-400);
+}
+
+.bg-pink-500 {
+    background-color: var(--pink-500);
+}
+
+/* Neutral Background Colour */
+.bg-neutral-100 {
+    background-color: var(--neutral-100);
+}
+
+.bg-neutral-200 {
+    background-color: var(--neutral-200);
+}
+
+.bg-neutral-300 {
+    background-color: var(--neutral-300);
+}
+
+.bg-neutral-400 {
+    background-color: var(--neutral-400);
+}
+
+.bg-neutral-500 {
+    background-color: var(--neutral-500);
+}
