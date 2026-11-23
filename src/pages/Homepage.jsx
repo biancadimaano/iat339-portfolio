@@ -40,11 +40,17 @@ function Homepage() {
         </div>
 
         <div class="contact">
-            <p class="text">I'm open to Product Designer and UX/UI Designer positions for Summer and Fall 2027 terms.</p>
-
-            <h4>Contact Me</h4>
-            <p>fbd1@sfu.ca</p>
+            <h4>Availability</h4>
+            <p class="text paragraph">I'm open to Product Designer and UX/UI Designer positions for Summer and Fall 2027 terms. I'm open to exploring opportunities across different industries, with a particular interest in esports and the gaming industry.</p>
         </div>
+
+        <footer>
+            <p class="display-text">bianca dimaano</p>
+            <div class="contact-list">
+                <a href="mailto:fbd1@sfu.ca">Email</a>
+                <a href="https.//www.linkedin.com/in/biancadimaano">LinkedIn</a>
+            </div>
+        </footer>
       </main>
     </div>
   );
