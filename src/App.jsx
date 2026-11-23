@@ -8,6 +8,7 @@
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import StyleGuide from './pages/StyleGuide';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       {/* Routes */}
       <Routes>
         <Route path="/" element={<StyleGuide />} />
+        <Route path="/template/homepage" element={<Homepage />} />
       </Routes>
     </BrowserRouter>
   )

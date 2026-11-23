@@ -54,6 +54,10 @@ a {
     transition: color 0.15s ease-out;
 }
 
+.yarndings {
+    font-family: 'Yarndings 20';
+}
+
 a:hover, a:focus {
     color: var(--pink-300);
 }
@@ -181,7 +185,7 @@ figcaption {
 
 .project-card:hover, .project-card:focus {
     cursor: pointer;
-    background-color: var(--neutral-200);
+    background-color: var(--neutral-300);
 }
 
 .project-card img {
