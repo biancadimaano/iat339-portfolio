@@ -38,6 +38,13 @@ function Homepage() {
               description="Lorem ipsum dolor sit amet consectetur. Netus nisi leo eu integer felis. Montes cursus diam ut velit sollicitudin aliquet nulla dolor."
             />
         </div>
+
+        <div class="contact">
+            <p class="text">I'm open to Product Designer and UX/UI Designer positions for Summer and Fall 2027 terms.</p>
+
+            <h4>Contact Me</h4>
+            <p>fbd1@sfu.ca</p>
+        </div>
       </main>
     </div>
   );
